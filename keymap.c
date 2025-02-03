@@ -18,9 +18,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                         KC_LGUI, KC_LSFT, MO(1)  , KC_SPC ,                        KC_ENT , MO(2)  , KC_RSFT, KC_RALT
     ),
     [_LOWER] = LAYOUT(
-      KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  , KC_F6  ,                        KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  ,
-      KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 , KC_F12 ,                        KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  ,
-      KC_TRNS, KC_MUTE, KC_VOLD, KC_VOLU, KC_BRIU, KC_BRID,                        KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  ,
+      KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  , KC_F6  ,                        KC_LBRC, KC_RBRC, KC_NO  , KC_NO  , KC_NO  , KC_NO  ,
+      KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 , KC_F12 ,                        KC_LCBR, KC_RCBR, KC_NO  , KC_NO  , KC_EQL , KC_NO  ,
+      KC_TRNS, KC_MUTE, KC_VOLD, KC_VOLU, KC_BRIU, KC_BRID,                        KC_PIPE, KC_NO  , KC_NO  , KC_NO  , KC_PLUS, KC_NO  ,
       KC_TRNS, KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  ,      KC_DEL , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  ,
                         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                        KC_TRNS, MO(3)  , KC_TRNS, KC_TRNS
     ),
